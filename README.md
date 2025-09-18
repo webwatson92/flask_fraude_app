@@ -7,6 +7,8 @@ source .venv/bin/activate  # sous Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+## upd
+
 ## Lancement
 ```bash
 export FLASK_APP=app.py
