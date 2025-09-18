@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block content %}
+<section class="card">
+  <h2>Modèle N°1 — Détection de fraudes</h2>
+  <p><strong>Objectif :</strong> analyser les actes médicaux exécutés sur une période donnée afin d'identifier des anomalies (ex. surfacturations, transactions sans actes, collusions, multi-structures le même jour).</p>
+
+  <h3>Étapes</h3>
+  <ol>
+    <li>Choisir une période d'analyse (date de début et date de fin).</li>
+    <li>Lancer le traitement et patienter pendant l'exécution.</li>
+    <li>Consulter le résumé et les détails des anomalies détectées.</li>
+    <li>Télécharger le rapport au format CSV</li>
+  </ol>
+
+  <h3>Données attendues</h3>
+  <ul>
+    <li><strong>Date de début</strong> et <strong>Date de fin</strong> : fenêtre temporelle d'analyse.</li>
+    <li><strong>Résultat attendu</strong> : génération d'un fichier <code>auto_all.csv</code> (ou équivalent) et d'un rapport Word.</li>
+  </ul>
+
+  <div class="actions">
+    <a class="btn" href="{{ url_for('dates') }}">Continuer</a>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,6 @@
+Flask>=3.0
+python-docx>=1.1.0
+pandas>=2.2
+# Le script de traitement peut nécessiter :
+SQLAlchemy>=2.0
+PyMySQL>=1.1

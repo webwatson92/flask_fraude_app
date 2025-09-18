@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "c:\Users\SAHINO\Desktop\test\fraudes_DICT\flask_fraude_app\app.py", line 144, in dates
+    raise CalledProcessError(proc.returncode, proc.args, proc.stdout, proc.stderr)
+subprocess.CalledProcessError: Command '['python', 'C:\\Users\\SAHINO\\Desktop\\test\\fraudes_DICT\\flask_fraude_app\\fraude_detect_admi.py']' returned non-zero exit status 1.

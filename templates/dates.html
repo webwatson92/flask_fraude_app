@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+<section class="card">
+  <h2>Paramétrage de la période</h2>
+  <form method="post" class="form">
+    <div class="form-row">
+      <label for="date_debut">Date de début</label>
+      <input type="date" id="date_debut" name="date_debut" required>
+    </div>
+    <div class="form-row">
+      <label for="date_fin">Date de fin</label>
+      <input type="date" id="date_fin" name="date_fin" required>
+    </div>
+    <div class="actions">
+      <a class="btn btn-secondary" href="{{ url_for('index') }}">Retour</a>
+      <button type="submit" class="btn">Lancer le traitement</button>
+    </div>
+  </form>
+  <p class="muted">Le traitement utilise le script local <code>fraude_detect_admi.py</code> et la variable <code>ADMI_WINDOW_DAYS</code> pour définir la fenêtre temporelle. Les fichiers sont générés dans un dossier dédié de <code>reports/</code>.</p>
+</section>
+{% endblock %}

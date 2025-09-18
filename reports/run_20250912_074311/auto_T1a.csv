@@ -1,0 +1,7 @@
+typologie_code,raison,date_soin,id_structure,structure_code,structure_nom,type_structure_libelle,num_pec,id_type_prest,id_type_prestation,type_prestation_libelle,id_acte,montant_execute,tarif_officiel,ecart_montant
+T1,Transaction sans actes rattachés,2025-09-10 15:48:04,84,,,POLYCLINIQUE,25M004094/1959R,5,5,PRISE EN CHARGE EN URGENCE,,,,
+T1,Transaction sans actes rattachés,2025-09-10 14:02:36,344,,,CLINIQUE,25M007302/1960T,1,1,HOSPITALISATION MEDICALE,,,,
+T1,Transaction sans actes rattachés,2025-09-11 16:07:13,240,,,CLINIQUE,25M005699/0204Y,5,5,PRISE EN CHARGE EN URGENCE,,,,
+T1,Transaction sans actes rattachés,2025-09-10 11:19:46,231,,,CLINIQUE,25M004391/0174D,5,5,PRISE EN CHARGE EN URGENCE,,,,
+T1,Transaction sans actes rattachés,2025-09-11 07:47:40,280,,,CLINIQUE,25M004392/0174M,1,1,HOSPITALISATION MEDICALE,,,,
+T1,Transaction sans actes rattachés,2025-09-11 08:03:03,6,,,POLYCLINIQUE,25M004100/1959P,5,5,PRISE EN CHARGE EN URGENCE,,,,

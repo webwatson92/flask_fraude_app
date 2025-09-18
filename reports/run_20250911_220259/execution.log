@@ -1,0 +1,22 @@
+[22:03:00] cols_acte_trans -> 14 lignes
+[22:03:00] acte_trans (90j) -> 13 lignes
+[22:03:00] list_acte_acte_trans (90j) -> 12 lignes
+[22:03:00] actes_convention -> 3 lignes
+[22:03:00] structure_sante -> 3 lignes
+[22:03:00] structure -> 0 lignes
+[22:03:00] type_str_sante -> 3 lignes
+[22:03:00] adherent -> 10 lignes
+[22:03:00] type_prestation -> 3 lignes
+[22:03:00] acte -> 3 lignes
+Écrit -> C:\Users\SAHINO\Desktop\test\fraudes_DICT\flask_fraude_app\reports\run_20250911_220259\auto_T1a.csv
+Écrit -> C:\Users\SAHINO\Desktop\test\fraudes_DICT\flask_fraude_app\reports\run_20250911_220259\auto_T1b.csv
+Écrit -> C:\Users\SAHINO\Desktop\test\fraudes_DICT\flask_fraude_app\reports\run_20250911_220259\auto_T2.csv
+Écrit -> C:\Users\SAHINO\Desktop\test\fraudes_DICT\flask_fraude_app\reports\run_20250911_220259\auto_T3.csv
+Écrit -> C:\Users\SAHINO\Desktop\test\fraudes_DICT\flask_fraude_app\reports\run_20250911_220259\auto_T4.csv
+Écrit -> C:\Users\SAHINO\Desktop\test\fraudes_DICT\flask_fraude_app\reports\run_20250911_220259\auto_all.csv
+OK. Détection enrichie terminée.
+
+
+[STDERR]
+C:\Users\SAHINO\Desktop\test\fraudes_DICT\flask_fraude_app\fraude_detect_admi.py:293: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df_all = pd.concat([

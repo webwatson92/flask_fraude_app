@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block content %}
+<section class="card">
+  <h2>Résultats</h2>
+  <p><strong>Période analysée :</strong> {{ summary.debut }} → {{ summary.fin }}</p>
+  <p><strong>Total anomalies détectées :</strong> {{ summary.nb_total }}</p>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          {% for h in headers %}<th>{{ h }}</th>{% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in rows %}
+          <tr>
+            {% for cell in row %}<td>{{ cell }}</td>{% endfor %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="pagination">
+    {% if page > 1 %}
+      <a class="btn btn-secondary" href="{{ url_for('resultats', page=page-1) }}">Précédent</a>
+    {% endif %}
+    <span>Page {{ page }} / {{ last_page }}</span>
+    {% if page < last_page %}
+      <a class="btn btn-secondary" href="{{ url_for('resultats', page=page+1) }}">Suivant</a>
+    {% endif %}
+  </div>
+
+  <div class="actions">
+    <a class="btn" href="{{ url_for('download', run_id=run_folder, filename=csv_file) }}">Télécharger le CSV</a>
+    
+    <a class="btn btn-secondary" href="{{ url_for('dates') }}">Recommencer</a>
+  </div>
+</section>
+{% endblock %}

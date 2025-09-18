@@ -1,0 +1,22 @@
+[INFO] Table tarifs : actes_convention
+[INFO] acte_trans STRUCT_COL=id_structure_executante | DATE_COL=date_debut_execution | BENEF_SRC=num_pec | TPREST_COL=id_type_prest
+[20:18:21] acte_trans (mapping fixé, 985j) -> 205552 lignes
+[20:18:42] list_acte_acte_trans (985j) -> 358248 lignes
+[20:18:43] actes_convention -> 2112 lignes
+[20:18:43] structure_sante -> 310 lignes
+[20:18:43] structure -> 387 lignes
+[20:18:43] type_str_sante -> 18 lignes
+[20:18:43] type_prestation -> 13 lignes
+[20:18:43] acte -> 795 lignes
+Écrit -> C:\Users\SAHINO\Desktop\test\fraudes_DICT\flask_fraude_app\reports\run_20250911_201814\auto_T1a.csv
+Écrit -> C:\Users\SAHINO\Desktop\test\fraudes_DICT\flask_fraude_app\reports\run_20250911_201814\auto_T1b.csv
+Écrit -> C:\Users\SAHINO\Desktop\test\fraudes_DICT\flask_fraude_app\reports\run_20250911_201814\auto_T2.csv
+Écrit -> C:\Users\SAHINO\Desktop\test\fraudes_DICT\flask_fraude_app\reports\run_20250911_201814\auto_T3.csv
+Écrit -> C:\Users\SAHINO\Desktop\test\fraudes_DICT\flask_fraude_app\reports\run_20250911_201814\auto_T4.csv
+Écrit -> C:\Users\SAHINO\Desktop\test\fraudes_DICT\flask_fraude_app\reports\run_20250911_201814\auto_all.csv
+OK. Détection (ONLINE, mapping décidé + PK optionnelle) terminée.
+
+
+[STDERR]
+C:\Users\SAHINO\Desktop\test\fraudes_DICT\flask_fraude_app\fraude_detect_admi.py:351: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df_all = pd.concat([
